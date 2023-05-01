@@ -4,7 +4,7 @@
   </head>
 
   <body>
-    <div id="counter">-</div>
+    <div id="counter"><input /><button onclick="click()">click me</button></div>
     <script src="https://unpkg.com/centrifuge@3.1.0/dist/centrifuge.js"></script>
     <script type="text/javascript">
       const container = document.getElementById('counter');
@@ -13,7 +13,7 @@
         'ws://localhost:8000/connection/websocket',
         {
           token:
-            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM3MjIiLCJleHAiOjE2ODMyODYwMjIsImlhdCI6MTY4MjY4MTIyMn0.YuT2cn9Ql1rIm1tNOeOEQChJS3EWa6RdgGDRtzzDwpI',
+            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM3MjIiLCJleHAiOjE2ODM1MjkzMzQsImlhdCI6MTY4MjkyNDUzNH0.8SPzujAKvWUOb5yUtjg5Shuh0SiLkAruUSuWIO1lwgY',
         },
       );
 
